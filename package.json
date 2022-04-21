@@ -1,0 +1,26 @@
+{
+    "name": "eslint-plugin-prettier-line-feed",
+    "version": "1.0.0",
+    "description": "自动处理代码换行的eslint插件",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avennn/eslint-plugin-prettier-line-feed.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-plugin"
+    ],
+    "author": "Javen Leung",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/avennn/eslint-plugin-prettier-line-feed/issues"
+    },
+    "homepage": "https://github.com/avennn/eslint-plugin-prettier-line-feed#readme",
+    "devDependencies": {
+        "prettier": "2.6.2"
+    }
+}
