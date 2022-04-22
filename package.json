@@ -1,33 +1,33 @@
 {
-    "name": "eslint-plugin-prettier-line-feed",
-    "version": "1.0.0",
-    "description": "自动处理代码换行的eslint插件",
-    "main": "index.js",
-    "scripts": {
-        "test": "npm run unit-test",
-        "unit-test": "istanbul cover node_modules/mocha/bin/_mocha tests/lib/**/*.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/avennn/eslint-plugin-prettier-line-feed.git"
-    },
-    "keywords": [
-        "eslint",
-        "eslint-plugin"
-    ],
-    "author": "Javen Leung",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/avennn/eslint-plugin-prettier-line-feed/issues"
-    },
-    "homepage": "https://github.com/avennn/eslint-plugin-prettier-line-feed#readme",
-    "devDependencies": {
-        "eslint": "^8.13.0",
-        "istanbul": "^0.4.5",
-        "mocha": "^9.2.2",
-        "prettier": "2.6.2"
-    },
-    "peerDependencies": {
-        "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8"
-    }
+  "name": "eslint-plugin-prettier-line-feed",
+  "version": "1.0.0",
+  "description": "自动处理代码换行的eslint插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit-test",
+    "unit-test": "istanbul cover node_modules/mocha/bin/_mocha tests/lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avennn/eslint-plugin-prettier-line-feed.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "author": "Javen Leung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avennn/eslint-plugin-prettier-line-feed/issues"
+  },
+  "homepage": "https://github.com/avennn/eslint-plugin-prettier-line-feed#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^9.2.2",
+    "prettier": "2.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8"
+  }
 }
