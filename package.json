@@ -22,6 +22,7 @@
     },
     "homepage": "https://github.com/avennn/eslint-plugin-prettier-line-feed#readme",
     "devDependencies": {
+        "eslint": "^8.13.0",
         "istanbul": "^0.4.5",
         "mocha": "^9.2.2",
         "prettier": "2.6.2"
