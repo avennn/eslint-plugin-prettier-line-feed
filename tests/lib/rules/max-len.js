@@ -1,6 +1,6 @@
 const RuleTester = require('eslint').RuleTester;
 const outdent = require('outdent');
-const rule = require('../../../lib/rules/object-property-count');
+const rule = require('../../../lib/rules/max-len');
 
 const ruleTester = new RuleTester({
   parserOptions: {
@@ -9,7 +9,7 @@ const ruleTester = new RuleTester({
   },
 });
 
-ruleTester.run('object-property-count', rule, {
+ruleTester.run('max-len', rule, {
   valid: [
     {
       code: `const student = { id: 1, name: 'javen', age: 18 }`,
