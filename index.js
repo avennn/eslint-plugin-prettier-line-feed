@@ -9,7 +9,7 @@ module.exports = {
     recommended: {
       plugins: ['prettier-line-feed'],
       rules: {
-        'prettier-line-feed/max-len': 2,
+        'prettier-line-feed/max-len': [2, { code: 80 }],
       },
     },
   },
