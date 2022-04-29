@@ -1,5 +1,5 @@
 const allRules = {
-  // 'object-property-count': require('./lib/rules/object-property-count'),
+  'object-property-count': require('./lib/rules/object-property-count'),
   'max-len': require('./lib/rules/max-len'),
 };
 
