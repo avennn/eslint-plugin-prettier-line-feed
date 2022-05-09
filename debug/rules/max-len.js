@@ -48,7 +48,8 @@ console.log('good');`,
 );
 
 const result2 = linter.verifyAndFix(
-  `import React, { FC, ReactNode, useState, useRef, useCallback, useEffect } from 'react';`,
+  `import React, { FC, ReactNode, useState, useRef, useCallback, 
+useEffect} from 'react';`,
   {
     parserOptions: {
       sourceType: 'module',
